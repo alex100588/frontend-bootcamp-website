@@ -9,3 +9,16 @@ body::before{
         width: 50%;
     }
 }
+a:hover{
+    color: aqua !important;
+}
+
+.btn:hover{
+    transform: scale(0.98);
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    transition: transform .2s ease-in-out;
+    box-shadow: 5px 5px 20px black ;
+}
